@@ -1,0 +1,11 @@
+definition_version: 2
+entities:
+  improvado_dashboard:
+    type: streamlit
+    identifier:
+      name: IMPROVADO_DASHBOARD
+    title: "Cross-Channel Advertising Performance"
+    main_file: streamlit_app.py
+    query_warehouse: COMPUTE_WH
+    artifacts:
+      - environment.yml
